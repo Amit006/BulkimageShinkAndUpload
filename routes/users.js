@@ -50,13 +50,13 @@ router.post('/uploadmultiple', function(req, res, next) {console.log('---- uploa
           .toFile(shorturl, (err, info) => {
         // res.json({})
           console.log(' sortV done value: ', info , ' err: ', err);
-           let obj = {
-              'mainImg': '',
-              '':'',
-              '':'',
-              '':'',
-              '':''
-           };
+          //  let obj = {
+          //     'mainImg': '',
+          //     '':'',
+          //     '':'',
+          //     '':'',
+          //     '':''
+          //  };
             Apikey.push()
       });
     })
